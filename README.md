@@ -1,6 +1,7 @@
 Executing NaiveBayesianClassifier.py directly will output classification result in file classification_result.txt and the accuracy in the console, the pesudo count will be 1 / |V|, where V is the set of vocabulary.
 
 Option -g starts gauge mode. Options -s, -e, and -n can be used to change the setting of gauge. The detailed instructions are listed below.
+
 	-g, --gaugeMode       If flag g is used, the program runs in gauge mode and
 	                        findsrelation between pseudo counter and accuracy.-m
 	                        and -t will not take effect when -g is used.The gauge
@@ -35,6 +36,7 @@ The following are instructions for other options.
 
 After executing the script NaiveBayesianClassifier.py in gauge mode for at least once, we could execute script plot_relation.py which plots the relation between pseudo counts and accuracy. 
 plot_relation.py has one optional argument -f. Its description is as below.
+
 	-f FILENAME, --filename FILENAME
 	                        This script will plot the dataint the file specified
 	                        by filename.If filename is not specified, data in
