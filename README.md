@@ -1,3 +1,5 @@
+This program implements a naive bayesian classifier with an accuracy level of 81% with a pseudo count value of near 0.06.
+
 Executing NaiveBayesianClassifier.py directly will output classification result in file classification_result.txt and the accuracy in the console, the pesudo count will be 1 / |V|, where V is the set of vocabulary.
 
 Option -g starts gauge mode. Options -s, -e, and -n can be used to change the setting of gauge. The detailed instructions are listed below.
